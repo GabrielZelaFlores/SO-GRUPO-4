@@ -15,10 +15,10 @@ class Practica
 
 };
 void funcion (int a) {
-	std::cout << "funcion (int) executada";
+	std::cout << "funcion (int) executada" << std::endl;
 }
 void funcion1 (Laboratorio la){
-	std::cout << "funcion (Laboratorio) executada";
+	std::cout << "funcion (Laboratorio) executada" << std::endl;
 }
 int main()
 {
