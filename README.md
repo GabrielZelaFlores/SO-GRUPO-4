@@ -1,6 +1,6 @@
-# 🚢 Proyecto MARES – Sistema de Gestión Marítima con Django
+#  Proyecto MARES – Sistema de Gestión Marítima con Django
 
-## 📌 Descripción
+##  Descripción
 
 Este proyecto corresponde al desarrollo de una aplicación web utilizando el framework Django, orientada a la gestión de información marítima dentro del sistema MARES.
 
@@ -8,7 +8,7 @@ Se implementa una arquitectura modular, separando los modelos en múltiples arch
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 * Implementar un proyecto Django desde cero
 * Configurar entorno virtual y dependencias
@@ -28,7 +28,7 @@ Se implementa una arquitectura modular, separando los modelos en múltiples arch
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 MyDjangoProject/
@@ -63,7 +63,7 @@ MyDjangoProject/
 
 ---
 
-## 🗄️ Diseño de Base de Datos
+##  Diseño de Base de Datos
 
 El sistema está compuesto por las siguientes entidades:
 
@@ -77,7 +77,7 @@ Representa las embarcaciones registradas en el sistema.
 * estado
 * fecha de creación
 
-### 📍 Posicion
+###  Posicion
 
 Registra la ubicación geográfica de una embarcación.
 
@@ -88,7 +88,7 @@ Registra la ubicación geográfica de una embarcación.
 * rumbo
 * timestamp
 
-### 🌊 Zona
+###  Zona
 
 Define áreas marítimas.
 
@@ -96,7 +96,7 @@ Define áreas marítimas.
 * tipo
 * descripción
 
-### ⚠️ Alerta
+###  Alerta
 
 Gestiona alertas asociadas a embarcaciones.
 
@@ -106,7 +106,7 @@ Gestiona alertas asociadas a embarcaciones.
 * fecha
 * estado
 
-### 🚨 IncidenteSAR
+###  IncidenteSAR
 
 Registra incidentes de búsqueda y rescate.
 
@@ -126,7 +126,7 @@ Registra incidentes de búsqueda y rescate.
 
 ---
 
-## 🧪 Migraciones
+##  Migraciones
 
 Se utilizaron migraciones automáticas de Django para la creación de tablas:
 
@@ -137,7 +137,7 @@ python manage.py migrate
 
 ---
 
-## 👤 Usuario Administrador
+##  Usuario Administrador
 
 Se creó un superusuario para acceder al panel de administración:
 
@@ -147,7 +147,7 @@ python manage.py createsuperuser
 
 ---
 
-## 🖥️ Ejecución del Proyecto
+##  Ejecución del Proyecto
 
 ```bash
 python manage.py runserver
@@ -160,7 +160,7 @@ http://127.0.0.1:8000/admin/
 ```
 
 ---
-## 🧪 Procedimiento de Desarrollo del Proyecto
+##  Procedimiento de Desarrollo del Proyecto
 
 ### 1. Creación del directorio de trabajo
 
@@ -361,7 +361,7 @@ Este archivo contiene todas las tablas generadas y datos de prueba para validaci
 
 ---
 
-## 📦 Dependencias
+##  Dependencias
 
 Archivo generado:
 
@@ -377,7 +377,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚫 Archivos Ignorados
+##  Archivos Ignorados
 
 Configuración en `.gitignore`:
 
@@ -389,7 +389,7 @@ __pycache__/
 
 ---
 
-## 🧠 Conclusiones
+##  Conclusiones
 
 * Se implementó correctamente un sistema Django modular
 * Se aplicaron buenas prácticas en organización del código
