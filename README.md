@@ -347,18 +347,6 @@ tree /F /A
 
 ---
 
-### 20. Base de datos generada
-
-Se utilizó SQLite como motor de base de datos:
-
-```text
-db.sqlite3
-```
-
-Incluyendo todas las tablas y relaciones del sistema.
-
----
-
 ## 🗃️ Base de Datos
 
 El proyecto utiliza SQLite como motor de base de datos.
@@ -407,15 +395,3 @@ __pycache__/
 * Se aplicaron buenas prácticas en organización del código
 * Se logró la integración completa entre modelos, migraciones y administración
 * El sistema permite operaciones CRUD completas desde el panel admin
-
----
-
-## 🚀 Posibles Mejoras
-
-* Implementación de API REST (Django REST Framework)
-* Uso de PostgreSQL como base de datos
-* Validaciones avanzadas en modelos
-* Interfaces frontend personalizadas
-* Integración con servicios externos de geolocalización
-
----
